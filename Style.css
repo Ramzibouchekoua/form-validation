@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'gt_walsheim_regular';
+    src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot');
+    src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.woff') format('woff'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.ttf') format('truetype'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.svg#gt_walsheim_bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
+   body{ background-color: rgb(91, 44, 167);
+    font-family: gt_walsheim_regular }
+  .background{margin: 0.0000001%; height: 120vh;
+    border-radius: 10px;
+      animation: pulse 20s infinite;
+  }
+   
+  
+    
+    
+    @keyframes pulse {
+      0% {
+        background-color: rgb(55, 8, 87);
+      }
+      25% {
+        background-color:rgb(107, 14, 84);
+      }
+      50% {
+        background-color: rgb(86, 17, 151);
+      }
+      75% {
+        background-color:  rgb(188, 0, 68);
+      }
+      100% {
+        background-color: blueviolet;
+        display: flex ; justify-content: center
+      }
+    }
+    .information{
+     display:flex;flex-flow: column; justify-content: center ;align-items:center  ;color: white ;
+     font-size: 16pt 
+    }
+
+    .button{
+     display:flex;flex-flow: column; justify-content: space-between ;align-items:center; margin-top: 20px
+    }
+    .elem{
+        width: 300px ; height: 30px
+    }
+   
